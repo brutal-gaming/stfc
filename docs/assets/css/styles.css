@@ -1,0 +1,61 @@
+* {
+  --outline: 1px solid red;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(107 114 128);
+}
+
+body {
+  background-color: rgb(17 24 39);
+  color:     rgb(229 231 235);
+  font-family: 'Segoe UI';
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+  --border: 5px dashed red;
+}
+
+/* #NAVIGATION */
+
+.nav {
+  background-color: rgb(31 41 55);
+  font-family: 'system-ui';
+  padding-bottom:       0.50rem;
+  padding-inline-start: 80px;
+  padding-top:          0.50rem;
+}
+
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+    margin-right: 0.25rem;
+    color: rgb(229 231 235);
+  }
+
+/* #HEADER */
+
+.page-title {
+  font-family: 'system-ui';
+  font-size:  3rem;
+  padding:    1rem;
+}
+
+/* #BODY */
+main{
+  padding:    0.5rem;
+}
+
+/* #FOOTER */
+
+footer {
+  color: rgb(107 114 128);
+  padding: 2rem;
+}
+
+  footer a {
+    color: rgb(229 231 235);
+  }
